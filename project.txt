@@ -1,0 +1,11 @@
+hello
+Database=bap;Data Source=ap-cdbr-azure-southeast-b.cloudapp.net;User Id=bf099cfd7e031b;Password=a085a02d
+
+//Disable back button code jsp
+<SCRIPT type="text/javascript">
+	window.history.forward();
+	function noBack() { window.history.forward(); }
+</SCRIPT>
+</HEAD>
+<BODY onload="noBack();" 
+	onpageshow="if (event.persisted) noBack();" onunload="">

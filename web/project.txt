@@ -1,0 +1,2 @@
+MYSQL CONECTION STRING:
+Database=bap;Data Source=ap-cdbr-azure-southeast-b.cloudapp.net;User Id=bf099cfd7e031b;Password=a085a02d

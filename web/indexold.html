@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <SCRIPT type="text/javascript">
+	window.history.forward();
+	function noBack() { window.history.forward(); }
+</SCRIPT>
+    </head>
+    <body onload="noBack();" onpageshow="if (event.persisted) noBack();" onunload="">
+        <form action="Login.jsp" method="post">
+            USERNAME:<input type="text" id="uname" name="uname"/><br/>
+            PASSWORD:<input type="password" id="pwd" name="pwd"/><br/>
+            login_In:<select name="Login_as" >
+                <option value="hod">HOD</option>
+                <option value="staff">Staff</option>
+            </select>
+            </br></br>
+            <input type="submit" title="LogIn"/>
+        </form>
+    </body>
+</html>
